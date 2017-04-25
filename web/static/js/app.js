@@ -17,9 +17,9 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 
 //Pages
-import layout from './layout';
-import foo from './pages/foo';
-import bar from './pages/bar';
+// import layout from '.layout';
+// import foo from './pages/foo';
+// import bar from './pages/bar';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);

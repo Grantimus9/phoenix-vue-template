@@ -1,13 +1,15 @@
 <template>
-  <p>
-    You are viewing the <span class="foo">foo</span>-page
-  </p>
-  <p v-if="response">
-    API-Response from Server: {{response | json}}
-  </p>
-  <p v-else>
-    Loading API-Data...
-  </p>
+  <div>
+    <p>
+      You are viewing the <span class="foo">foo</span>-page
+    </p>
+    <p v-if="response">
+      API-Response from Server: {{response | json}}
+    </p>
+    <p v-else>
+      Loading API-Data...
+    </p>
+  </div>
 </template>
 
 <script>

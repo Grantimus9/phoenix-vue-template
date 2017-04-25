@@ -52,6 +52,15 @@ exports.config = {
     babel: {
       // Do not use ES6 compiler in vendor code
       ignore: [/web\/static\/vendor/]
+    },
+    vue: {
+      extractCSS: true,
+      out: 'priv/static/css/components.css',
+      // the loaders section was recommended by the atom language-vue syntax highlighting support package.
+      loaders: {
+        sass: 'style!css!sass?indentedSyntax',
+        scss: 'style!css!sass'
+      }
     }
   },
 
